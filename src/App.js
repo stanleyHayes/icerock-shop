@@ -13,6 +13,7 @@ import ProfilePage from "./pages/profile/ProfilePage";
 import EditProfilePage from "./pages/profile/EditProfilePage";
 import WhatsNewPage from "./pages/whatsnew/WhatsNewPage";
 import ProductsPage from "./pages/products/ProductsPage";
+import ProductDetailPage from "./pages/products/ProductDetailPage";
 
 function App() {
   return (
@@ -73,6 +74,10 @@ function App() {
 
             <Route path="/products" exact={true}>
               <ProductsPage />
+            </Route>
+
+            <Route path="/products/:productId" exact={true}>
+              <ProductDetailPage />
             </Route>
 
             <Route path="/whatsnew" exact={true}>
