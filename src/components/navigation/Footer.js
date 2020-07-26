@@ -21,37 +21,44 @@ function Footer() {
                                 </p>
 
                                 <p>
-                                    <Link to="/contact"
+                                    <Link to="/whatsnew"
                                           className={` dark-grey-text nav-link margin-vertical-small font-size-small uppercase`}>
-                                        About
+                                        What's new
                                     </Link>
                                 </p>
 
                                 <p>
-                                    <Link to="/feed"
+                                    <Link to="/products"
                                           className={` dark-grey-text nav-link margin-vertical-small font-size-small uppercase`}>
-                                        Feed Mill
+                                       Products
+                                    </Link>
+                                </p>
+
+                                <p>
+                                    <Link to="/orders"
+                                          className={`nav-link dark-grey-text nav-link margin-vertical-small font-size-small uppercase`}>
+                                        Orders
                                     </Link>
                                 </p>
 
                                 <p>
                                     <Link to="/about"
                                           className={`nav-link dark-grey-text nav-link margin-vertical-small font-size-small uppercase`}>
-                                        Careers
+                                        Archive
                                     </Link>
                                 </p>
 
                                 <p>
                                     <Link to="/about"
                                           className={`nav-link dark-grey-text nav-link margin-vertical-small font-size-small uppercase`}>
-                                        News
+                                        Profile
                                     </Link>
                                 </p>
 
                                 <p>
-                                    <Link to="/about"
+                                    <Link to="/account"
                                           className={`nav-link dark-grey-text nav-link margin-vertical-small font-size-small uppercase`}>
-                                        Contact Us
+                                        Account
                                     </Link>
                                 </p>
                             </div>
