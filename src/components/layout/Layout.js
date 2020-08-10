@@ -8,7 +8,6 @@ import {
 
 import DrawerContent from "../navigation/DrawerContent";
 import {makeStyles} from "@material-ui/styles";
-import Footer from "../navigation/Footer";
 
 function Layout({children}) {
 
@@ -65,9 +64,6 @@ function Layout({children}) {
                         {children}
                     </Grid>
                 </Grid>
-            </div>
-            <div>
-                <Footer />
             </div>
         </div>
     )
