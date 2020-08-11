@@ -109,13 +109,6 @@ function DrawerContent({handleDrawerClose}) {
 
                             <Divider variant="fullWidth"/>
 
-                            <p>
-                                <Link to="/cart"
-                                      className={`${classes.button}  ${classes.link} center-align margin-vertical-small uppercase font-weight-bold`}>
-                                    Cart
-                                </Link>
-                            </p>
-
 
                             <Divider variant="fullWidth"/>
 
@@ -143,7 +136,15 @@ function DrawerContent({handleDrawerClose}) {
                                     Favorites
                                 </Link>
                             </p>
+
                             <Divider variant="fullWidth"/>
+
+                            <p>
+                                <Link to="/cart"
+                                      className={`${classes.button}  ${classes.link} center-align margin-vertical-small uppercase font-weight-bold`}>
+                                    Cart
+                                </Link>
+                            </p>
 
                             <p>
                                 <Link to="/account"
