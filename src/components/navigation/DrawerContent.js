@@ -138,9 +138,9 @@ function DrawerContent({handleDrawerClose}) {
                             <Divider variant="fullWidth"/>
 
                             <p>
-                                <Link to="/profile"
+                                <Link to="/favorites"
                                       className={`${classes.button}  ${classes.link} center-align margin-vertical-small uppercase font-weight-bold`}>
-                                    Profile
+                                    Favorites
                                 </Link>
                             </p>
                             <Divider variant="fullWidth"/>

@@ -16,6 +16,7 @@ import ProductsPage from "./pages/products/ProductsPage";
 import ProductDetailPage from "./pages/products/ProductDetailPage";
 import ReviewsPage from "./pages/reviews/ReviewsPage";
 import "react-image-gallery/styles/css/image-gallery.css";
+import FavoritesPage from "./pages/cart/FavoritesPage";
 
 function App() {
   return (
@@ -88,6 +89,10 @@ function App() {
 
             <Route path="/whats-new" exact={true}>
               <WhatsNewPage />
+            </Route>
+
+            <Route path="/favorites" exact={true}>
+              <FavoritesPage />
             </Route>
           </Switch>
         </ScrollToTop>

@@ -2,7 +2,7 @@ import React from "react";
 import {Grid, Toolbar} from "@material-ui/core";
 import {makeStyles} from "@material-ui/core/styles";
 import {Link, useHistory} from "react-router-dom";
-import {AddShoppingCart, Person, VerifiedUser} from "@material-ui/icons";
+import {AddShoppingCart, FavoriteBorderOutlined, VerifiedUser} from "@material-ui/icons";
 import "../../App.css";
 
 
@@ -34,8 +34,8 @@ function DesktopHeader() {
         history.push('/account')
     }
 
-    const handleProfileClicked = () => {
-        history.push('/profile')
+    const handleFavoritesClicked = () => {
+        history.push('/favorites')
     }
 
 
@@ -96,15 +96,15 @@ function DesktopHeader() {
 
                 <Grid item={true} container={true} lg={1} justify="space-around">
                     <Grid item={true}>
-                        <AddShoppingCart onClick={handleCartClicked} className={classes.icon} />
+                        <AddShoppingCart onClick={handleCartClicked} className={classes.icon}/>
                     </Grid>
 
                     <Grid item={true}>
-                        <Person onClick={handleProfileClicked} className={classes.icon} />
+                        <FavoriteBorderOutlined onClick={handleFavoritesClicked} className={classes.icon}/>
                     </Grid>
 
                     <Grid item={true}>
-                        <VerifiedUser onClick={handleAccountClicked} className={classes.icon} />
+                        <VerifiedUser onClick={handleAccountClicked} className={classes.icon}/>
                     </Grid>
                 </Grid>
             </Grid>
