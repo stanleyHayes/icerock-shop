@@ -64,32 +64,32 @@ function DesktopHeader() {
 
                 <Grid item={true} container={true} lg={7} justify="center" spacing={4}>
                     <Grid item={true}>
-                        <Link to="/" className="nav-link uppercase font-size-medium font-weight-bold text">
+                        <Link to="/" className="nav-link uppercase font-size-small font-weight-bold">
                             Dashboard
                         </Link>
                     </Grid>
 
                     <Grid item={true}>
-                        <Link to="/whatsnew" className="nav-link uppercase font-size-medium font-weight-bold text">
+                        <Link to="/whats-new" className="nav-link uppercase font-size-small font-weight-bold">
                             What's New
                         </Link>
                     </Grid>
 
                     <Grid item={true}>
-                        <Link to="/products" className="nav-link uppercase font-size-medium font-weight-bold text">
+                        <Link to="/products" className="nav-link uppercase font-size-small font-weight-bold">
                             Products
                         </Link>
                     </Grid>
 
                     <Grid item={true}>
-                        <Link to="/orders" className="nav-link uppercase font-size-medium font-weight-bold text">
+                        <Link to="/orders" className="nav-link uppercase font-size-small font-weight-bold">
                             Orders
                         </Link>
                     </Grid>
 
                     <Grid item={true}>
-                        <Link to="/archive" className="nav-link uppercase font-size-medium font-weight-bold text">
-                            Archive
+                        <Link to="/reviews" className="nav-link uppercase font-size-small font-weight-bold">
+                            Reviews
                         </Link>
                     </Grid>
                 </Grid>

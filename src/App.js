@@ -14,6 +14,8 @@ import EditProfilePage from "./pages/profile/EditProfilePage";
 import WhatsNewPage from "./pages/whatsnew/WhatsNewPage";
 import ProductsPage from "./pages/products/ProductsPage";
 import ProductDetailPage from "./pages/products/ProductDetailPage";
+import ReviewsPage from "./pages/reviews/ReviewsPage";
+import "react-image-gallery/styles/css/image-gallery.css";
 
 function App() {
   return (
@@ -64,6 +66,10 @@ function App() {
               <OrdersPage />
             </Route>
 
+            <Route path="/reviews" exact={true}>
+              <ReviewsPage />
+            </Route>
+
             <Route path="/profile" exact={true}>
               <ProfilePage />
             </Route>
@@ -80,7 +86,7 @@ function App() {
               <ProductDetailPage />
             </Route>
 
-            <Route path="/whatsnew" exact={true}>
+            <Route path="/whats-new" exact={true}>
               <WhatsNewPage />
             </Route>
           </Switch>

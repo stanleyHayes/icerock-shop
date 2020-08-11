@@ -4,7 +4,12 @@ html, body {
 
 .nav-link {
   text-decoration: none;
-  color: darkblue;
+  color: #888888;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: #333333;
 }
 
 .text-align-center {
@@ -21,6 +26,7 @@ html, body {
 
 .grey-light-text {
   color: #eeeeee;
+  font-weight: 500;
 }
 
 .padding-vertical-medium {
@@ -43,6 +49,7 @@ html, body {
 
 .dark-grey-text {
   color: #888888;
+  font-weight: 500;
 }
 
 .separator {
@@ -53,6 +60,7 @@ html, body {
 
 .grey-text-light {
   color: #dddddd;
+  font-weight: 500;
 }
 
 .animated-underline {
@@ -71,6 +79,7 @@ html, body {
 
 .text {
   color: #333333;
+  font-weight: 500;
 }
 
 .title {
@@ -280,7 +289,7 @@ html, body {
 }
 
 .font-size-small {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .platform {
@@ -408,13 +417,13 @@ html, body {
 }
 
 .margin-vertical-medium {
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .margin-vertical-large {
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .padding-vertical-small {
@@ -492,4 +501,17 @@ html, body {
 
 .font-size-huge{
   font-size: 72px;
+}
+
+.text-decoration-none{
+  text-decoration: none;
+}
+
+.shadow {
+  transition: all 700ms ease-in-out;
+  overflow: hidden;
+}
+
+.shadow:hover {
+  box-shadow: 50px 50px 50px #cccccc;
 }
