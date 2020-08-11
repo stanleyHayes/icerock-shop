@@ -121,6 +121,9 @@ function ProductDetailPage({product, loading}) {
 
                         <Grid item={true} xs={12} md={6} lg={6} container={true}>
                             <Card elevation={0} variant="outlined" raised={false}>
+
+                                <Divider variant="fullWidth" />
+
                                 <CardContent>
 
                                     <Hidden lgUp={true}>

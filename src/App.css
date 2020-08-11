@@ -513,5 +513,5 @@ html, body {
 }
 
 .shadow:hover {
-  box-shadow: 50px 50px 50px #cccccc;
+  box-shadow: 50px 50px 5px #cccccc;
 }

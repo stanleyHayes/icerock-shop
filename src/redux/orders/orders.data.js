@@ -2,23 +2,26 @@ export const ORDERS = [
     {
         owner: {
             name: "Stanley Hayford",
-            avatar: `${process.env.PUBLIC}/images/hero-image-big.jpg`
+            avatar: `${process.env.PUBLIC_URL}/images/hero-image-big.jpg`
         },
         products: [
             {
                 name: "Pure Water",
                 quantity: 4,
-                price: 200
+                price: 2000,
+                image: `${process.env.PUBLIC_URL}/images/hero-image-big.jpg`
             },
             {
                 name: "Bottled Water",
                 quantity: 4,
-                price: 400
+                price: 400,
+                image: `${process.env.PUBLIC_URL}/images/hero-image-big.jpg`
             },
             {
                 name: "Gallon Water",
                 quantity: 2,
-                price: 300
+                price: 300,
+                image: `${process.env.PUBLIC_URL}/images/hero-image-big.jpg`
             }
         ],
         orderID: "HSK12345",

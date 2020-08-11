@@ -77,7 +77,7 @@ const CreateIssue = ({open, handleClose}) => {
         <Dialog open={open} onClose={handleClose}>
             <DialogContent>
 
-                <p className="text text-align-center font-size-large">
+                <p className="text text-align-center font-size-large uppercase">
                     New Issue
                 </p>
                 <div className="margin-vertical-small">
@@ -108,6 +108,7 @@ const CreateIssue = ({open, handleClose}) => {
                         helperText={error.description}
                         label="Description"
                         multiline={true}
+                        rows={5}
                         placeholder="Enter description"
                         error={error.description}
                         value={description}
