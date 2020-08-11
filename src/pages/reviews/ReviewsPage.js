@@ -63,32 +63,32 @@ const ReviewsPage = ({reviews, loading}) => {
                                 className={classes.createButton}
                                 size="small"
                                 variant="outlined"
-                                endIcon={<Add />}>
-                                    Add Review
+                                endIcon={<Add/>}>
+                                Add Review
                             </Button>
                         </Grid>
+                    </Grid>
 
-                        <Grid container={true} spacing={3}>
-                            {
-                                (!reviews.length) ? (
-                                    <Grid container={true} item={true} xs={12} alignItems="center" justify="center">
-                                        <Grid item={true}>
-                                            <p className="uppercase font-weight-bold font-size-medium grey-text">
-                                                No Reviews Available
-                                            </p>
-                                        </Grid>
+                    <Grid container={true} spacing={3}>
+                        {
+                            (!reviews.length) ? (
+                                <Grid container={true} item={true} xs={12} alignItems="center" justify="center">
+                                    <Grid item={true}>
+                                        <p className="uppercase font-weight-bold font-size-medium grey-text">
+                                            No Reviews Available
+                                        </p>
                                     </Grid>
-                                ) : (
-                                    reviews.map((review, index) => {
-                                        return (
-                                            <Grid key={index} item={true} xs={12} md={6} lg={4}>
-                                                <Review review={review}/>
-                                            </Grid>
-                                        )
-                                    })
-                                )
-                            }
-                        </Grid>
+                                </Grid>
+                            ) : (
+                                reviews.map((review, index) => {
+                                    return (
+                                        <Grid key={index} item={true} xs={12} md={6} lg={4}>
+                                            <Review review={review}/>
+                                        </Grid>
+                                    )
+                                })
+                            )
+                        }
                     </Grid>
                     <div className="padding-vertical-large">
                         <Container>
