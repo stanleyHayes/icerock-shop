@@ -35,7 +35,7 @@ const Product = ({product}) => {
 
     const classes = useStyles();
 
-    const {price, averageRating, name, image, status} = product;
+    const {price, name, image} = product;
 
     return (
         <div className="shadow">
@@ -45,17 +45,8 @@ const Product = ({product}) => {
                 variant="outlined">
                 <CardMedia className={classes.productImage} component="img" src={image}/>
                 <CardContent>
-                    <p className="text-align-center text font-size-medium font-weight-bold">{name}</p>
-                    <p className="text-align-center text font-size-small uppercase">{status}</p>
-                    <p className="text-align-center text font-size-medium">{price} GHS</p>
-                    <div className="text-align-center">
-                        <Rating
-                            readOnly={true}
-                            value={averageRating}
-                            max={5}
-                            precision={.1}
-                            size="medium"/>
-                    </div>
+                    <p className="text-align-center text font-size-medium font-weight-bold uppercase">{name}</p>
+                    <p className="text-align-center text font-size-medium font-weight-bold">{price} GHS</p>
                     <div className="text-align-center">
                         <Button variant="outlined"  className={classes.addToCartButton}>
                             Add to Cart

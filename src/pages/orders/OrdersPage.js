@@ -206,7 +206,6 @@ function OrdersPage({orders}) {
                             </Grid>
                         </Container>
                     </div>
-
                 </Container>
 
             </div>
